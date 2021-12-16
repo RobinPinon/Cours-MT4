@@ -1,0 +1,12 @@
+.diamond-js {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.diamond-js > * {
+    display: flex;
+    justify-content: space-between;
+}
